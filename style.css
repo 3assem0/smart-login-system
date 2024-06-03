@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    background-color: #CACAC9;
+} */
+.loginin{
+    height:89vh;
+}
+.login{
+    border-radius: 5px;
+    /* height: 57vh; */
+    background-color:#20966d;
+    transition: all .3s;
+    &:hover{
+    box-shadow: 0px 0px 24px 0px rgba(85, 82, 82, 0.984);
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+P{
+    a{
+        text-decoration: none;
+        transition: all .5s;
+        &:hover{
+            text-decoration: underline;
+        }
+    }    
+        font-family: cursive;
+}
+}
+.footer{
+    padding: 30px;
+    p{
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6; 
+    font-weight: 700;
+    color: rgb(40, 40, 41);
+    margin: 0px;
+    background-color: #20966d;
+    }
+    span{
+        color: rgb(216, 204, 204);
+    }
+  }
+
+
+  /* ----------------------------------------------- */
+  .nav2{
+    box-shadow: 0px 1px 10px 5px rgba(85, 82, 82, 0.984);
+  }
+  .logo{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 900;
+    color: #20966d;
+  }
+  .username{
+    box-shadow: 0px 1px 10px 5px rgba(85, 82, 82, 0.984);
+    padding: 20px;
+    font-family: cursive;
+    font-size:50px;
+    font-weight: 800;
+    margin-top: 100px;
+    background-color: rgb(30, 156, 101)
+    
+  }
+  .USCON{
+    height:80vh;
+    
+  }
+
+.apiii {
+    margin-top: 100px;
+    display: flex; 
+    flex-direction: column; 
+   align-items: center;
+   justify-content: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    max-width: 70%; 
+    /* height: 80%; */
+    box-sizing: border-box; 
+    overflow: scroll; 
+    overflow-x: hidden;
+}
+
+.apiii h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.apiii img {
+    max-width: 300px; 
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.apiii p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.apiii a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.apiii a:hover {
+    background-color: #0056b3;
+}
